@@ -231,3 +231,37 @@ portfolio
 .portfolio img {
     border: solid 10px #f0f0f0;
 }
+
+.skills .wrap-skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills .skill{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.skills .skill h3{
+    width: 73px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.skills .bar{
+    height: 20px;
+    background:#d5d5d5;
+    width: 100%;
+    border-radius: 11px;
+}
+.skills .bar div{
+    border-radius: 11px;
+    background-color: #42704e;
+    width: 125px;
+    height: 20px;
+}
+.skills .skill:nth-child(odd){
+    padding-right: 20px;
+}
+.skills .skill:nth-child(even){
+    padding-left: 20px;
+}
